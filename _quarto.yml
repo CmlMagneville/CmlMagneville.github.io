@@ -8,11 +8,11 @@ website:
   navbar: 
     left:
     - href: index.qmd
-      text: Home
+      text: Camille Magneville
     - href: about.qmd
       text: About
-    - href: resources.qmd
-      text: Resources
+    - href: research.qmd
+      text: Research
     
     right:
     - icon: github
