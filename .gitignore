@@ -1,3 +1,10 @@
+## To add for website:
+# folder created by quarto
+_site/
+# help to update website faster, quarto freezes what has been done and re-run only things that changed
+_freeze/
+.quarto/
+
 # History files
 .Rhistory
 .Rapp.history
