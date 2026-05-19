@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -109,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -127,21 +92,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Camille Magneville</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.qmd"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=PnnVbAgAAAAJ&amp;hl=fr&amp;authuser=2"> 
+<span class="menu-text">{{&lt; iconify fa6-brands:google-scholar &gt;}}</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/cmlmagneville.bsky.social"> 
+<span class="menu-text">{{&lt; iconify meteor-icons:bluesky &gt;}}</span></a>
+  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CmlMagneville/CmlMagneville.github.io"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/CmlMagneville"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/camille-magneville-841ba7163/"> <i class="bi bi-LinkedIn" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -156,7 +130,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#camille-magneville" id="toc-camille-magneville" class="nav-link active" data-scroll-target="#camille-magneville">Camille Magneville</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -183,23 +165,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="camille-magneville" class="level2">
 <h2 class="anchored" data-anchor-id="camille-magneville">Camille Magneville</h2>
 <p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-</section>
-<section id="running-code" class="level2">
-<h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
 
 
 </section>
@@ -278,7 +243,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/CmlMagneville\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/cmlmagneville\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -609,14 +574,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+<div>
+© Copyright 2026, Camille Magneville
 </div>
-    <div class="nav-footer-right">
+<div id="cookie-banner-placeholder">
+
+</div>
+<script>
+  function loadGoogleAnalytics() {
+    const gascript = document.createElement("script");
+    gascript.async = true;
+    gascript.src = "https://www.googletagmanager.com/gtag/js?id=G-DV6K7C0XDV";
+    document.head.appendChild(gascript);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DV6K7C0XDV');
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem("cookieAccepted") === "true") {
+      loadGoogleAnalytics();
+      return;
+    }
+    const bannerHTML = `
+      <div id="cookie-banner">
+        <p>
+          This website uses cookies for analytics. By clicking "OK", you agree to its use.
+          <button id="accept-cookies">OK</button>
+          <a href="privacy.html" class="cookie-link">(learn more)</a>
+        </p>
+      </div>`;
+    document.getElementById("cookie-banner-placeholder").innerHTML = bannerHTML;
+    
+    document.getElementById("accept-cookies").addEventListener("click", function () {
+      localStorage.setItem("cookieAccepted", "true");
+      document.getElementById("cookie-banner").remove();
+      loadGoogleAnalytics();
+    });
+  });
+</script>
+</div>   
+    <div class="nav-footer-center">
       &nbsp;
     </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
   </div>
 </footer>
 
