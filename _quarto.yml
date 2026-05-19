@@ -1,6 +1,6 @@
 project: 
   type: website
-  output-dir: _site
+  output-dir: docs
   
 website: 
   title: "Camille Magneville"
@@ -13,9 +13,9 @@ website:
         href: research.qmd
         
     right:
-      - text: "{{< iconify fa6-brands:google-scholar >}}"
+      - text: Google Scholar
         href: https://scholar.google.com/citations?user=PnnVbAgAAAAJ&hl=fr&authuser=2
-      - text: "{{< iconify meteor-icons:bluesky >}}"
+      - text: Bluesky
         href: https://bsky.app/profile/cmlmagneville.bsky.social
       - icon: github
         href: https://github.com/CmlMagneville 
