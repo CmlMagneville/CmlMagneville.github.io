@@ -1,0 +1,29 @@
+project: 
+  type: website
+  output-dir: _site
+  
+website: 
+  title: "Camille Magneville"
+  
+  navbar: 
+    left:
+    - href: index.qmd
+      text: Home
+    - href: about.qmd
+      text: About
+    - href: resources.qmd
+      text: Resources
+    
+    right:
+    - icon: github
+      href: https://github.com/CmlMagneville/CmlMagneville.github.io
+      
+  page-footer:
+    center: "Built with [Quarto](https://quarto.org/)"
+  
+format:
+  html:
+    theme: flatly
+    toc: false
+    
+  
